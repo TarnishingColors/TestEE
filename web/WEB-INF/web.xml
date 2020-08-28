@@ -12,11 +12,11 @@
         <url-pattern>/hello-world</url-pattern>
     </servlet-mapping>
     <servlet>
-        <servlet-name>SecondServlet</servlet-name>
-        <servlet-class>SecondServlet</servlet-class>
+        <servlet-name>FirstJSP</servlet-name>
+        <jsp-file>/FirstJSP.jsp</jsp-file>
     </servlet>
     <servlet-mapping>
-        <servlet-name>SecondServlet</servlet-name>
-        <url-pattern>/nibba</url-pattern>
+        <servlet-name>FirstJSP</servlet-name>
+        <url-pattern>/FirstJSP.jsp</url-pattern>
     </servlet-mapping>
 </web-app>
