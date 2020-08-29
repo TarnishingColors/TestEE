@@ -19,4 +19,20 @@
         <servlet-name>FirstJSP</servlet-name>
         <url-pattern>/jspimbuli</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>SecondServlet</servlet-name>
+        <servlet-class>SecondServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SecondServlet</servlet-name>
+        <url-pattern>/testing</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>ThirdServlet</servlet-name>
+        <servlet-class>ThirdServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ThirdServlet</servlet-name>
+        <url-pattern>/3rd</url-pattern>
+    </servlet-mapping>
 </web-app>
