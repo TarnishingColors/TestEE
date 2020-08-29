@@ -17,8 +17,9 @@
         <%@ page import="java.util.Date, helpers.TestClass"%>
 
         <%= new Date() %>
-        <% TestClass tc = new TestClass("Joseph"); %>
-        <%= "<p>" + tc.getWriting() + "</p>" %>
+        <% TestClass tc = new TestClass("Joseph");
+        String name = request.getParameter("name"); %>
+        <%= "<p>" + tc.getWriting() + " greets " + name + "</p>" %>
 
     </p>
 </body>
