@@ -17,6 +17,6 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>FirstJSP</servlet-name>
-        <url-pattern>/FirstJSP.jsp</url-pattern>
+        <url-pattern>/jspimbuli</url-pattern>
     </servlet-mapping>
 </web-app>

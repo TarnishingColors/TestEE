@@ -14,7 +14,11 @@
     <h1>Gargoyle</h1>
     <p>
 
-    <%= new java.util.Date() %>
+        <%@ page import="java.util.Date, helpers.TestClass"%>
+
+        <%= new Date() %>
+        <% TestClass tc = new TestClass("Joseph"); %>
+        <%= "<p>" + tc.getWriting() + "</p>" %>
 
     </p>
 </body>
