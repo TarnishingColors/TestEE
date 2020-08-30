@@ -11,4 +11,31 @@
         <servlet-name>FirstJSP</servlet-name>
         <url-pattern>/jspimbuli</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>setCookieServlet</servlet-name>
+        <servlet-class>setCookieServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>setCookieServlet</servlet-name>
+        <url-pattern>/set-cookie</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>getCookieServlet</servlet-name>
+        <servlet-class>getCookieServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>getCookieServlet</servlet-name>
+        <url-pattern>/get-cookie</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>deleteCookieServlet</servlet-name>
+        <servlet-class>deleteCookieServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>deleteCookieServlet</servlet-name>
+        <url-pattern>/delete-cookie</url-pattern>
+    </servlet-mapping>
 </web-app>
